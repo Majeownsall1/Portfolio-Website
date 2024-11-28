@@ -19,12 +19,14 @@ li{
     font-size: 16px;
 }
 
-
+#About{
+    display: flex;
+    justify-content: space-between; 
+}
 
 #Justin{
-    width: 50%;
-    height: 50%; /* Fixed height */
-    display :inline-block;
-    justify-content: space-between; 
-    align-items:flex-end;
+    width: 40%;
+    height: 40%; /* Fixed height */
+    margin-left: auto;
+    
 }
