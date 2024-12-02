@@ -30,3 +30,38 @@ li{
     margin-left: auto;
     
 }
+
+#Projects{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+#Projects li{
+  display: block;
+  list-style:inside;
+  position: relative;
+  padding-left: 20px; 
+  margin-bottom: 10px;
+}
+
+#Projects-header{
+    margin-left: 7%;
+}
+
+#Projects li::before {
+    content: "✔";
+    color: green;
+    position: absolute;
+    left: 0;
+}
+
+#Skills-header{
+    margin-left: 7%;
+}
+
+#Skills{
+    justify-content: center;
+    background: linear-gradient(45deg, #0073e6, #11a7d1);
+    color: white;
+}
