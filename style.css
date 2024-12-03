@@ -38,6 +38,14 @@ li{
     justify-content: space-between; 
 }
 
+#About-Header{
+    margin-left: 7%;
+}
+
+#About img{
+    max-width: 300px;
+}
+
 #Justin{
     width: 40%;
     height: 40%; /* Fixed height */
@@ -104,6 +112,44 @@ li{
 
     #About img {
         max-width: 100%;
+        margin-right: auto;
+    }
+
+    #About-Header{
+        text-align: center;
+    }
+
+    #Projects-header{
+        text-align: center;
+    }
+
+    #Contact-header{
+        text-align: center;
+    }
+
+    #Skills-header{
+        text-align: center;
+    }
+
+    #Projects{
+        text-align: center;
+        margin-right: 40px;
+
+    }
+
+    #Contact{
+        text-align: center;
+    }
+
+    #Skills{
+        text-align: center;
+    }
+
+    #Projects li::before {
+        content: "✔";
+        color: green;
+        position:relative;
+        left: 0px;
     }
 }
 
